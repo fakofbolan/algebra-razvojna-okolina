@@ -7,6 +7,6 @@ const dateEl = document.querySelector(`#date`);
     let h = today.getHours();
     let min = today.getMinutes();
     let sec = today.getSeconds();
-    dateEl.innerHTML = `${h}h ${min}m ${sec}s Godina:${year}, mjesec: ${month}, day:${day}`;
+    dateEl.innerHTML = `${h}h ${min}m ${sec}s <div>Godina:${year}<br>Mjesec: ${month}<br>Day:${day}</div>`;
 
 console.log(`Hello world!`)
